@@ -1,0 +1,35 @@
+#title {
+    display: flex;
+    color: white;
+    background-color: green;
+    justify-content: center;
+    justify-items: center;
+   
+}
+
+#todo-display {
+  display: flex;
+  color: orange;
+  font-size: 40px;
+  align-items: center;
+  list-style-type:'[x]   ';
+  flex-direction: column;
+  
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.button {
+  color: green;
+  border-width: 4px;
+  background-color: white;
+  font-size: 30px;
+  border-color: green;
+
+}
+
+
