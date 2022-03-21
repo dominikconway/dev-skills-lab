@@ -1,9 +1,13 @@
 #title {
-    display: flex;
-    color: white;
-    background-color: green;
-    justify-content: center;
-    justify-items: center;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
    
 }
 
@@ -12,7 +16,7 @@
   color: orange;
   font-size: 40px;
   align-items: center;
-  list-style-type:'[x]   ';
+  list-style-type: none;
   flex-direction: column;
   
 }
@@ -32,4 +36,9 @@
 
 }
 
+.newbutton {
+  background-color:  red;
+  width: 2em;
+  height: 2em;
+}
 

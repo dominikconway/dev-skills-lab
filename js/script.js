@@ -17,16 +17,16 @@ $submit.on("click", (event) => {
     todos.push(newTodo)
     // add an li with the new todo
     const $li = $("<li>")
-    $li.text(newTodo)
-    $ul.append($li)
+     const $button = $li.html(`<button class='newbutton'>X</button>  ${newTodo}`)
+    $ul.append($button)
     // add removal event listener
     const remove = (event) => {
         // turn the event target to a jQ object
         const $target = $(event.target)
         // remove it
-        $target.remove()
+        $button.remove()
     }
-    $li.on("click", remove)
+    $button.on("click", remove)
     // clear the input
     $textInput.val("")
 })
